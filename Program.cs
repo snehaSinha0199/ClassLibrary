@@ -1,18 +1,19 @@
-﻿using ArithmeticLibrary;
-using InheritLibrary;
+﻿
+using StaticReadOnlyConsLib;
+using StructLibrary;
+/*  Class4 c4 = new Class4();
+c4.test();
+Class6 c6 = new Class6();
+c6.test();*/
 
-B b = new B();
-C c = new C();
+Struct1 s=new Struct1();
+s.a = 10;
+s.b = 20;
+Console.WriteLine(s.a);
+Console.WriteLine(s.d);
+Console.WriteLine(s.b);
+Console.WriteLine(s.f);
+Console.WriteLine(s.l);
+Struct1 s1 = new Struct1(10, 20,4);
 
-//Calling main() of B class
-//b.main();
 
-//Calling main() of C class
-
-//c.main();
-
-Class1 c1 = new Class1();
-Class1 c2 = new Class1();
-Class3 c3 = new Class3();
-Console.WriteLine(c1.add(10));
-Console.WriteLine(c2.add(20));
